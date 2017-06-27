@@ -1,0 +1,57 @@
+/* 나눔고딕 */	
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+h1{font-weight: 700; font-size: 2.5em; margin-top: 30px}
+.container div {font-family: 'Nanum Gothic', serif}
+.area_card {padding:20px 30px}
+.input-group .form-control{font-size: 1.4em}
+.input-group-addon{font-size: 1.4rem}
+.area_icon{padding:15px 0}
+.set_icon .row{padding: 15px 0}
+.btn-color{padding: 11px}
+.card{overflow:visible}
+#icon{width: 180px; height: 180px;
+	text-align:center; color: #000; font-size: 3em; background-color: #fff;
+	 margin: 0 auto 30px auto; border-radius: 20px; display: table; line-height: 1.2}
+#icon span{display: table-cell; word-break: keep-all; vertical-align: middle}
+.form-control{cursor: auto;}
+
+.bg1{background-color: #ffffff !important; border: 1px solid #e95e38}
+.bg2{background-color: #e0e0e0 !important}
+.bg3{background-color: #e91e63 !important}
+.bg4{background-color: #9c27b0 !important}
+.bg5{background-color: #0091ea !important}
+.bg6{background-color: #e65100 !important}
+.bg7{background-color: #000000 !important}
+
+.fc1{background-color: #ffffff !important; color: #ffffff !important; border: 1px solid #e95e38}
+.fc2{background-color: #e0e0e0 !important; color: #e0e0e0 !important}
+.fc3{background-color: #e91e63 !important; color: #e91e63 !important}
+.fc4{background-color: #9c27b0 !important; color: #9c27b0 !important}
+.fc5{background-color: #0091ea !important; color: #0091ea !important}
+.fc6{background-color: #e65100 !important; color: #e65100 !important}
+.fc7{background-color: #000000 !important; color: #000000 !important}
+
+.fs1{font-family: 'Nanum Gothic', serif}
+.fs2{font-family: 'Nanum Myeongjo', serif}
+.fs3{font-family: 'Nanum Brush Script', serif}
+.fs4{font-family: 'Nanum Pen Script', serif}
+.fs5{font-family: 'Jeju Gothic', serif}
+.fs6{font-family: 'Jeju Hallasan', serif} 
+.fs7{font-family: 'Jeju Myeongjo', serif}
+.fs8{font-family: 'Hanna', serif}
+
+
+@media (min-width: 480px) {
+	.container {
+	    width: 480px;
+	    max-width: 100%;
+	}
+}
