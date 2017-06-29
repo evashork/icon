@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	$('#icon').css({'color':'black'});
 	bgColor();
 	fontColor();
 	deviceSel();
@@ -7,6 +6,7 @@ $(document).ready(function(){
 	fontWSel();
 	fontSize();
 	makeIcon();
+	$('#icon').css({'color':'black'});
 });
 
 function bgColor(){
