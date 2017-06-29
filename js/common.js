@@ -1,8 +1,11 @@
 $(document).ready(function(){
+	$('#icon').css({'color':'black'});
 	bgColor();
 	fontColor();
 	deviceSel();
 	fontSel();
+	fontWSel();
+	fontSize();
 	makeIcon();
 });
 
@@ -12,6 +15,20 @@ function bgColor(){
 	  $('#icon').css({'background-color':hi});
 	})
 }
+
+function fontSize(){
+	$('.btn-radio').click(function(){
+		var hi = $(this).val();
+	  $('#icon').css({'font-size':hi});
+	});
+}
+
+function fontWSel(){
+	$('.btn-weight').click(function(){
+		var hi = $(this).css('font-weight');
+	  $('#icon').css({'font-weight':hi});
+	})
+} 
 
 function fontColor(){
 	$('.btn-cl').click(function(){
@@ -35,6 +52,7 @@ function fontSel(){
 		var hi = $(this).css('font-family');
 	  $('#icon').css({'font-family':hi});
 	})
+	return false;
 }
 
 function iconApple(iconImg){
@@ -54,7 +72,8 @@ function iconAndor(iconImg){
 }
 
 function makeIcon(){
-	$("#btn-save").click(function() { 
+	$("#btn-save").click(function() {
+		document.title = $('#icon span').text();
         html2canvas($("#icon"), {
             onrendered: function(canvas) {
                 theCanvas = canvas;

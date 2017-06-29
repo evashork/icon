@@ -9,6 +9,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
 
 h1{font-weight: 700; font-size: 2.5em; margin-top: 30px}
+.container {padding-bottom: 30px}
 .container div {font-family: 'Nanum Gothic', serif}
 .area_card {padding:20px 30px}
 .input-group .form-control{font-size: 1.4em}
@@ -18,10 +19,11 @@ h1{font-weight: 700; font-size: 2.5em; margin-top: 30px}
 .btn-color{padding: 11px}
 .card{overflow:visible}
 #icon{width: 180px; height: 180px;
-	text-align:center; color: #000; font-size: 3em; background-color: #fff;
+	text-align:center; color: #fff; font-size: 3em; background-color: #fff;
 	 margin: 0 auto 30px auto; border-radius: 20px; display: table; line-height: 1.2}
 #icon span{display: table-cell; word-break: keep-all; vertical-align: middle}
-.form-control{cursor: auto;}
+.form-control{cursor: auto}
+.area_save span{color: #fff; font-size: 1.4em; padding-left: 5px}
 
 .bg1{background-color: #ffffff !important; border: 1px solid #e95e38}
 .bg2{background-color: #e0e0e0 !important}
@@ -48,6 +50,8 @@ h1{font-weight: 700; font-size: 2.5em; margin-top: 30px}
 .fs7{font-family: 'Jeju Myeongjo', serif}
 .fs8{font-family: 'Hanna', serif}
 
+.fw1{font-weight: 500 !important;}
+.fw2{font-weight: 700 !important;}
 
 @media (min-width: 480px) {
 	.container {
